@@ -12943,23 +12943,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\chri7\\.nuget\\packages\\": {},
+    "C:\\Users\\Mads\\.nuget\\packages\\": {},
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\chri7\\source\\repos\\MovieApi\\MovieApi\\MovieApi.csproj",
+      "projectUniqueName": "C:\\xampp\\apps\\wordpress\\htdocs\\wp-content\\themes\\clean-blog-theme\\Microservis\\MovieApi\\MovieApi\\MovieApi.csproj",
       "projectName": "MovieApi",
-      "projectPath": "C:\\Users\\chri7\\source\\repos\\MovieApi\\MovieApi\\MovieApi.csproj",
-      "packagesPath": "C:\\Users\\chri7\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\chri7\\source\\repos\\MovieApi\\MovieApi\\obj\\",
+      "projectPath": "C:\\xampp\\apps\\wordpress\\htdocs\\wp-content\\themes\\clean-blog-theme\\Microservis\\MovieApi\\MovieApi\\MovieApi.csproj",
+      "packagesPath": "C:\\Users\\Mads\\.nuget\\packages\\",
+      "outputPath": "C:\\xampp\\apps\\wordpress\\htdocs\\wp-content\\themes\\clean-blog-theme\\Microservis\\MovieApi\\MovieApi\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "C:\\Users\\chri7\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Mads\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
