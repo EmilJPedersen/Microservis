@@ -1,0 +1,7 @@
+<h1>Movies</h1>
+<ul *ngIf ="movies">
+  <li *ngFor = "let movies of movies.data">
+    <img [src]="movies.imagePath">
+    <p>{{ movies.id }} {{ movies.Titel }} {{ movies.releaseDate }} {{ movies.Desc }}</p>    
+  </li>
+</ul>

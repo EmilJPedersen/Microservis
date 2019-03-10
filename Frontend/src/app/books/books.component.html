@@ -1,0 +1,7 @@
+<h1>Books</h1>
+<ul *ngIf ="books">
+  <li *ngFor = "let books of books.data">
+    <img [src]="books.ImagePath">
+    <p>{{ books.id }} {{ books.Titel }} {{ books.pages }} {{ books.desc }}</p>    
+  </li>
+</ul>
