@@ -4,6 +4,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using BookApi.Models;
 using Microsoft.AspNetCore.Builder;
+using Microsoft.AspNetCore.Cors.Infrastructure;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.HttpsPolicy;
 using Microsoft.AspNetCore.Mvc;
@@ -32,6 +33,18 @@ namespace BookApi
             services.AddDbContext<BookApiContext>(options =>
                     options.UseSqlServer(Configuration.GetConnectionString("BookApiContext")));
 
+            var CorsBuilder = new CorsPolicyBuilder();
+            CorsBuilder.AllowAnyHeader();
+            CorsBuilder.AllowAnyMethod();
+            CorsBuilder.AllowAnyOrigin();
+            CorsBuilder.AllowCredentials();
+
+
+            services.AddCors(options =>
+            {
+                options.AddPolicy("CorsPolicy", CorsBuilder.Build());
+            });
+
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
@@ -46,7 +59,7 @@ namespace BookApi
                 // The default HSTS value is 30 days. You may want to change this for production scenarios, see https://aka.ms/aspnetcore-hsts.
                 app.UseHsts();
             }
-
+            app.UseCors("CorsPolicy");
             app.UseHttpsRedirection();
             app.UseMvc();
         }
