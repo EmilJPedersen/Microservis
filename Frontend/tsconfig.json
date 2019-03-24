@@ -17,6 +17,26 @@
     "lib": [
       "es2018",
       "dom"
-    ]
+    ],
+    "paths": {
+      "books-lib": [
+        "dist/books-lib"
+      ],
+      "books-lib/*": [
+        "dist/books-lib/*"
+      ],
+      "lib": [
+        "dist/lib"
+      ],
+      "lib/*": [
+        "dist/lib/*"
+      ],
+      "movies-lib": [
+        "dist/movies-lib"
+      ],
+      "movies-lib/*": [
+        "dist/movies-lib/*"
+      ]
+    }
   }
 }
