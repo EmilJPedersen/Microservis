@@ -12,3 +12,17 @@ C:\Users\Mads\source\repos\BookApi\BookApi\obj\Debug\netcoreapp2.2\BookApi.Assem
 C:\Users\Mads\source\repos\BookApi\BookApi\obj\Debug\netcoreapp2.2\BookApi.RazorTargetAssemblyInfo.cache
 C:\Users\Mads\source\repos\BookApi\BookApi\obj\Debug\netcoreapp2.2\BookApi.dll
 C:\Users\Mads\source\repos\BookApi\BookApi\obj\Debug\netcoreapp2.2\BookApi.pdb
+C:\Users\Edb\Documents\GitHub\Microservis\BookApis\BookApi\bin\Debug\netcoreapp2.2\BookApi.deps.json
+C:\Users\Edb\Documents\GitHub\Microservis\BookApis\BookApi\bin\Debug\netcoreapp2.2\BookApi.runtimeconfig.json
+C:\Users\Edb\Documents\GitHub\Microservis\BookApis\BookApi\bin\Debug\netcoreapp2.2\BookApi.runtimeconfig.dev.json
+C:\Users\Edb\Documents\GitHub\Microservis\BookApis\BookApi\bin\Debug\netcoreapp2.2\BookApi.dll
+C:\Users\Edb\Documents\GitHub\Microservis\BookApis\BookApi\bin\Debug\netcoreapp2.2\BookApi.pdb
+C:\Users\Edb\Documents\GitHub\Microservis\BookApis\BookApi\obj\Debug\netcoreapp2.2\BookApi.csprojAssemblyReference.cache
+C:\Users\Edb\Documents\GitHub\Microservis\BookApis\BookApi\obj\Debug\netcoreapp2.2\BookApi.csproj.CoreCompileInputs.cache
+C:\Users\Edb\Documents\GitHub\Microservis\BookApis\BookApi\obj\Debug\netcoreapp2.2\BookApi.RazorAssemblyInfo.cache
+C:\Users\Edb\Documents\GitHub\Microservis\BookApis\BookApi\obj\Debug\netcoreapp2.2\BookApi.RazorAssemblyInfo.cs
+C:\Users\Edb\Documents\GitHub\Microservis\BookApis\BookApi\obj\Debug\netcoreapp2.2\BookApi.AssemblyInfoInputs.cache
+C:\Users\Edb\Documents\GitHub\Microservis\BookApis\BookApi\obj\Debug\netcoreapp2.2\BookApi.AssemblyInfo.cs
+C:\Users\Edb\Documents\GitHub\Microservis\BookApis\BookApi\obj\Debug\netcoreapp2.2\BookApi.RazorTargetAssemblyInfo.cache
+C:\Users\Edb\Documents\GitHub\Microservis\BookApis\BookApi\obj\Debug\netcoreapp2.2\BookApi.dll
+C:\Users\Edb\Documents\GitHub\Microservis\BookApis\BookApi\obj\Debug\netcoreapp2.2\BookApi.pdb
