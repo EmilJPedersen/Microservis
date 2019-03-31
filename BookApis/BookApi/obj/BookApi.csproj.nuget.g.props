@@ -4,7 +4,11 @@
     <RestoreSuccess Condition=" '$(RestoreSuccess)' == '' ">True</RestoreSuccess>
     <RestoreTool Condition=" '$(RestoreTool)' == '' ">NuGet</RestoreTool>
 <<<<<<< HEAD
+<<<<<<< HEAD
     <ProjectAssetsFile Condition=" '$(ProjectAssetsFile)' == '' ">C:\Users\Edb\Documents\GitHub\Microservis\BookApis\BookApi\obj\project.assets.json</ProjectAssetsFile>
+=======
+    <ProjectAssetsFile Condition=" '$(ProjectAssetsFile)' == '' ">C:\Users\Mads\Documents\GitHub\Microservis\BookApis\BookApi\obj\project.assets.json</ProjectAssetsFile>
+>>>>>>> 9b49e34a0b18bb63c1ac4457ffc42b6aadc95102
 =======
     <ProjectAssetsFile Condition=" '$(ProjectAssetsFile)' == '' ">C:\Users\Mads\Documents\GitHub\Microservis\BookApis\BookApi\obj\project.assets.json</ProjectAssetsFile>
 >>>>>>> 9b49e34a0b18bb63c1ac4457ffc42b6aadc95102
@@ -12,7 +16,11 @@
     <NuGetPackageFolders Condition=" '$(NuGetPackageFolders)' == '' ">C:\Users\Edb\.nuget\packages\;C:\Program Files\dotnet\sdk\NuGetFallbackFolder</NuGetPackageFolders>
     <NuGetProjectStyle Condition=" '$(NuGetProjectStyle)' == '' ">PackageReference</NuGetProjectStyle>
 <<<<<<< HEAD
+<<<<<<< HEAD
     <NuGetToolVersion Condition=" '$(NuGetToolVersion)' == '' ">4.8.1</NuGetToolVersion>
+=======
+    <NuGetToolVersion Condition=" '$(NuGetToolVersion)' == '' ">4.9.0</NuGetToolVersion>
+>>>>>>> 9b49e34a0b18bb63c1ac4457ffc42b6aadc95102
 =======
     <NuGetToolVersion Condition=" '$(NuGetToolVersion)' == '' ">4.9.0</NuGetToolVersion>
 >>>>>>> 9b49e34a0b18bb63c1ac4457ffc42b6aadc95102

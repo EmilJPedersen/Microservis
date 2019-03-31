@@ -8802,6 +8802,9 @@
 <<<<<<< HEAD
 =======
         ".nupkg.metadata",
+<<<<<<< HEAD
+>>>>>>> 9b49e34a0b18bb63c1ac4457ffc42b6aadc95102
+=======
 >>>>>>> 9b49e34a0b18bb63c1ac4457ffc42b6aadc95102
         "ThirdPartyNotices.txt",
         "dotnet_library_license.txt",
@@ -8845,6 +8848,9 @@
 <<<<<<< HEAD
 =======
         ".nupkg.metadata",
+<<<<<<< HEAD
+>>>>>>> 9b49e34a0b18bb63c1ac4457ffc42b6aadc95102
+=======
 >>>>>>> 9b49e34a0b18bb63c1ac4457ffc42b6aadc95102
         "ThirdPartyNotices.txt",
         "dotnet_library_license.txt",
@@ -12943,17 +12949,23 @@
     "version": "1.0.0",
     "restore": {
 <<<<<<< HEAD
+<<<<<<< HEAD
       "projectUniqueName": "C:\\Users\\Edb\\Documents\\GitHub\\Microservis\\BookApis\\BookApi\\BookApi.csproj",
       "projectName": "BookApi",
       "projectPath": "C:\\Users\\Edb\\Documents\\GitHub\\Microservis\\BookApis\\BookApi\\BookApi.csproj",
       "packagesPath": "C:\\Users\\Edb\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\Edb\\Documents\\GitHub\\Microservis\\BookApis\\BookApi\\obj\\",
 =======
+=======
+>>>>>>> 9b49e34a0b18bb63c1ac4457ffc42b6aadc95102
       "projectUniqueName": "C:\\Users\\Mads\\Documents\\GitHub\\Microservis\\BookApis\\BookApi\\BookApi.csproj",
       "projectName": "BookApi",
       "projectPath": "C:\\Users\\Mads\\Documents\\GitHub\\Microservis\\BookApis\\BookApi\\BookApi.csproj",
       "packagesPath": "C:\\Users\\Mads\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\Mads\\Documents\\GitHub\\Microservis\\BookApis\\BookApi\\obj\\",
+<<<<<<< HEAD
+>>>>>>> 9b49e34a0b18bb63c1ac4457ffc42b6aadc95102
+=======
 >>>>>>> 9b49e34a0b18bb63c1ac4457ffc42b6aadc95102
       "projectStyle": "PackageReference",
       "fallbackFolders": [
