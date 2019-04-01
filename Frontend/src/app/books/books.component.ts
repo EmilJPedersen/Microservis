@@ -32,5 +32,11 @@ export class BooksComponent implements OnInit {
       console.log(this.books);
     }) 
   }
+getBook(id):void{
+this.data.getSpecificBook(id).subscribe(data=>{
+  this.books=data;
+  console.log(this.books);
+  })
+}
 
 }
