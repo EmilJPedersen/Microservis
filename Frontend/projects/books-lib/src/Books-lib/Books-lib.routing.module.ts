@@ -4,6 +4,7 @@ import { BooksLibComponent } from './Books-lib.component';
 
 const routes: Routes = [ 
     {path: 'books', component: BooksLibComponent},
+    
   ];
   
   @NgModule({
