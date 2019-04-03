@@ -1,6 +1,10 @@
 import { Injectable } from '@angular/core';
-import {HttpClient} from '@angular/common/http';
+import {HttpClient, HttpHeaders} from '@angular/common/http';
 import { book } from '../../../Shared/book';
+
+const httpOptions = {
+  headers: new HttpHeaders({ 'Content-Type': 'application/json' })
+};
 
 @Injectable({
   providedIn: 'root'
@@ -12,7 +16,7 @@ export class BooksLibService {
   constructor(private http: HttpClient) { }
 
   postBook(formData: book) {
-    return this.http.post(this.rootURL + '/Books', formData);
+    return this.http.post(this.rootURL + '/Books', formData, httpOptions);
   }
 
-  }
+}
