@@ -38,7 +38,7 @@ namespace BookApi
                 options.AddPolicy(MyAllowSpecificOrigins,
                 builder =>
                 {
-                    builder.WithOrigins("http://localhost:4200/books");
+                    builder.WithOrigins("http://localhost:4200/books", "http://localhost:4200").AllowAnyHeader().AllowAnyMethod();
                 });
             });
 

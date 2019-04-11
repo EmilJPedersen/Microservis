@@ -40,3 +40,17 @@ C:\Users\Mads\Documents\GitHub\Microservis\BookApis\BookApi\obj\Debug\netcoreapp
 C:\Users\Mads\Documents\GitHub\Microservis\BookApis\BookApi\obj\Debug\netcoreapp2.2\BookApi.RazorTargetAssemblyInfo.cache
 C:\Users\Mads\Documents\GitHub\Microservis\BookApis\BookApi\obj\Debug\netcoreapp2.2\BookApi.dll
 C:\Users\Mads\Documents\GitHub\Microservis\BookApis\BookApi\obj\Debug\netcoreapp2.2\BookApi.pdb
+C:\xampp\apps\Microservis\BookApis\BookApi\bin\Debug\netcoreapp2.2\BookApi.deps.json
+C:\xampp\apps\Microservis\BookApis\BookApi\bin\Debug\netcoreapp2.2\BookApi.runtimeconfig.json
+C:\xampp\apps\Microservis\BookApis\BookApi\bin\Debug\netcoreapp2.2\BookApi.runtimeconfig.dev.json
+C:\xampp\apps\Microservis\BookApis\BookApi\bin\Debug\netcoreapp2.2\BookApi.dll
+C:\xampp\apps\Microservis\BookApis\BookApi\bin\Debug\netcoreapp2.2\BookApi.pdb
+C:\xampp\apps\Microservis\BookApis\BookApi\obj\Debug\netcoreapp2.2\BookApi.csprojAssemblyReference.cache
+C:\xampp\apps\Microservis\BookApis\BookApi\obj\Debug\netcoreapp2.2\BookApi.csproj.CoreCompileInputs.cache
+C:\xampp\apps\Microservis\BookApis\BookApi\obj\Debug\netcoreapp2.2\BookApi.RazorAssemblyInfo.cache
+C:\xampp\apps\Microservis\BookApis\BookApi\obj\Debug\netcoreapp2.2\BookApi.RazorAssemblyInfo.cs
+C:\xampp\apps\Microservis\BookApis\BookApi\obj\Debug\netcoreapp2.2\BookApi.AssemblyInfoInputs.cache
+C:\xampp\apps\Microservis\BookApis\BookApi\obj\Debug\netcoreapp2.2\BookApi.AssemblyInfo.cs
+C:\xampp\apps\Microservis\BookApis\BookApi\obj\Debug\netcoreapp2.2\BookApi.RazorTargetAssemblyInfo.cache
+C:\xampp\apps\Microservis\BookApis\BookApi\obj\Debug\netcoreapp2.2\BookApi.dll
+C:\xampp\apps\Microservis\BookApis\BookApi\obj\Debug\netcoreapp2.2\BookApi.pdb
