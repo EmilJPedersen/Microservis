@@ -4,8 +4,8 @@ import { HttpClientModule } from '@angular/common/http';
 import { FormsModule } from '@angular/forms';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import {moviesLibModule} from '../../../../../../../../projects/movies-lib/src/movies-lib/movies-lib.component'
-import {moviesLibModule} from '../../projects/movies-lib/src/lib/movies-lib.module'
+import { BooksComponent } from './books/books.component';
+import { MoviesComponent } from './movies/movies.component';
 import { NavComponent } from './nav/nav.component';
 import { HomeComponent } from './home/home.component';
 import { LibComponent } from 'projects/lib/src/public_api';
