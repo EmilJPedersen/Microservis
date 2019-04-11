@@ -1,15 +1,24 @@
 <h1>Books</h1>
 <h3>Create New book</h3>
+<<<<<<< HEAD
 <form class="form" #form="ngForm" (submit)="onSubmit(form)" autocomplete="off">
+=======
+<form class="form" #form="ngForm" (submit)="onSubmit(Form)" autocomplete="off">
+>>>>>>> parent of 2adea0d... Revert "Merge branch 'master' of https://github.com/EmilJPedersen/Microservis"
     <div class="form-row">
       <div class="form-group col-md-6">
           <label>Title</label>
           <input name="Titel" #Titel="ngModel" [(ngModel)]="service.formData.Titel" class="form-control">
+<<<<<<< HEAD
 
+=======
+                    
+>>>>>>> parent of 2adea0d... Revert "Merge branch 'master' of https://github.com/EmilJPedersen/Microservis"
       </div>
       <div class="form-group col-md-6">
         <label>Image path</label>
         <input name="ImagePath" #ImagePath="ngModel" [(ngModel)]="service.formData.ImagePath" class="form-control">
+<<<<<<< HEAD
 
     </div>
       <div class="form-group col-md-6">
@@ -24,6 +33,22 @@
       <div class="form-group col-md-6">
           <button type="submit" [disabled]="form.invalid" class="btn btn-lg btn-block" (click)="onSubmit(form)">Create New Book</button>
       </div>
+=======
+                  
+    </div>
+      <div class="form-group col-md-6">          
+          <label>Pages</label>
+          <input name="pages" #pages="ngModel" [(ngModel)]="service.formData.pages" class="form-control">
+          
+      </div> 
+      <div class="form-group col-md-6">          
+          <label>Description</label>
+          <input name="desc" #desc="ngModel" [(ngModel)]="service.formData.desc" class="form-control">
+      </div> 
+      <div class="form-group col-md-6">
+          <button type="submit" [disabled]="form.invalid" class="btn btn-lg btn-block">Create New Movie</button>
+      </div>        
+>>>>>>> parent of 2adea0d... Revert "Merge branch 'master' of https://github.com/EmilJPedersen/Microservis"
   </div>
 
 </form>
