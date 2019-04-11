@@ -1,14 +1,18 @@
 import { NgModule } from '@angular/core';
-import { BooksLibComponent } from './books-lib.component';
-import { BrowserModule } from '@angular/platform-browser';
 import { HttpClientModule } from '@angular/common/http';
+import { FormsModule } from '@angular/forms';
+import { BooksLibComponent } from './books-lib.component';
 import { browser } from 'protractor';
 @NgModule({
-  declarations: [BooksLibComponent],
+  declarations: [
+    BooksLibComponent
+  ],
   imports: [
    BrowserModule,
    HttpClientModule 
   ],
-  exports: [BooksLibComponent]
+  exports: [
+    BooksLibComponent
+  ]
 })
 export class BooksLibModule { }

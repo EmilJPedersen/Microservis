@@ -24,7 +24,7 @@ namespace BookApi
         }
 
         public IConfiguration Configuration { get; }
-
+        readonly string MyAllowSpecificOrigins = "_myAllowSpecificOrigins";
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
@@ -33,16 +33,13 @@ namespace BookApi
             services.AddDbContext<BookApiContext>(options =>
                     options.UseSqlServer(Configuration.GetConnectionString("BookApiContext")));
 
-            var CorsBuilder = new CorsPolicyBuilder();
-            CorsBuilder.AllowAnyHeader();
-            CorsBuilder.AllowAnyMethod();
-            CorsBuilder.AllowAnyOrigin();
-            CorsBuilder.AllowCredentials();
-
-
             services.AddCors(options =>
             {
-                options.AddPolicy("CorsPolicy", CorsBuilder.Build());
+                options.AddPolicy(MyAllowSpecificOrigins,
+                builder =>
+                {
+                    builder.WithOrigins("http://localhost:4200/books");
+                });
             });
 
         }
@@ -59,7 +56,7 @@ namespace BookApi
                 // The default HSTS value is 30 days. You may want to change this for production scenarios, see https://aka.ms/aspnetcore-hsts.
                 app.UseHsts();
             }
-            app.UseCors("CorsPolicy");
+            app.UseCors(MyAllowSpecificOrigins);
             app.UseHttpsRedirection();
             app.UseMvc();
         }
