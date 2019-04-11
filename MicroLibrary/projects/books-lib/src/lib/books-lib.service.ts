@@ -1,6 +1,7 @@
 import { Injectable } from '@angular/core';
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 import {HttpClient, HttpHeaders} from '@angular/common/http';
 import { book } from '../../../Shared/book';
 
@@ -16,10 +17,14 @@ import { book } from '../../../Shared/book';
 =======
 import {HttpClient} from '@angular/common/http';
 >>>>>>> parent of 8ffa367... Merge branch 'master' of https://github.com/EmilJPedersen/Microservis
+=======
+import {HttpClient} from '@angular/common/http';
+>>>>>>> parent of 8ffa367... Merge branch 'master' of https://github.com/EmilJPedersen/Microservis
 @Injectable({
   providedIn: 'root'
 })
 export class BooksLibService {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
   formData: book;
@@ -48,5 +53,14 @@ getBooks(){
   }
 >>>>>>> parent of 2adea0d... Revert "Merge branch 'master' of https://github.com/EmilJPedersen/Microservis"
 =======
+}
+>>>>>>> parent of 8ffa367... Merge branch 'master' of https://github.com/EmilJPedersen/Microservis
+=======
+
+  constructor(private http:HttpClient) { }
+
+getBooks(){
+  return this.http.get('the same thing here (Books)');
+}
 }
 >>>>>>> parent of 8ffa367... Merge branch 'master' of https://github.com/EmilJPedersen/Microservis

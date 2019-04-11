@@ -12861,10 +12861,14 @@
   "packageFolders": {
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     "C:\\Users\\Mads\\.nuget\\packages\\": {},
 =======
     "C:\\Users\\RuneBrøggerJepsen\\.nuget\\packages\\": {},
 >>>>>>> parent of 2adea0d... Revert "Merge branch 'master' of https://github.com/EmilJPedersen/Microservis"
+=======
+    "C:\\Users\\Edb\\.nuget\\packages\\": {},
+>>>>>>> parent of 8ffa367... Merge branch 'master' of https://github.com/EmilJPedersen/Microservis
 =======
     "C:\\Users\\Edb\\.nuget\\packages\\": {},
 >>>>>>> parent of 8ffa367... Merge branch 'master' of https://github.com/EmilJPedersen/Microservis
@@ -12873,6 +12877,7 @@
   "project": {
     "version": "1.0.0",
     "restore": {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
       "projectUniqueName": "C:\\Users\\Mads\\Documents\\GitHub\\Microservis\\BookApis\\BookApi\\BookApi.csproj",
@@ -12894,6 +12899,13 @@
       "packagesPath": "C:\\Users\\Edb\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\Edb\\Documents\\GitHub\\Microservis\\BookApis\\BookApi\\obj\\",
 >>>>>>> parent of 8ffa367... Merge branch 'master' of https://github.com/EmilJPedersen/Microservis
+=======
+      "projectUniqueName": "C:\\Users\\Edb\\Documents\\GitHub\\Microservis\\BookApis\\BookApi\\BookApi.csproj",
+      "projectName": "BookApi",
+      "projectPath": "C:\\Users\\Edb\\Documents\\GitHub\\Microservis\\BookApis\\BookApi\\BookApi.csproj",
+      "packagesPath": "C:\\Users\\Edb\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Edb\\Documents\\GitHub\\Microservis\\BookApis\\BookApi\\obj\\",
+>>>>>>> parent of 8ffa367... Merge branch 'master' of https://github.com/EmilJPedersen/Microservis
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -12901,10 +12913,14 @@
       "configFilePaths": [
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         "C:\\Users\\Mads\\AppData\\Roaming\\NuGet\\NuGet.Config",
 =======
         "C:\\Users\\RuneBrøggerJepsen\\AppData\\Roaming\\NuGet\\NuGet.Config",
 >>>>>>> parent of 2adea0d... Revert "Merge branch 'master' of https://github.com/EmilJPedersen/Microservis"
+=======
+        "C:\\Users\\Edb\\AppData\\Roaming\\NuGet\\NuGet.Config",
+>>>>>>> parent of 8ffa367... Merge branch 'master' of https://github.com/EmilJPedersen/Microservis
 =======
         "C:\\Users\\Edb\\AppData\\Roaming\\NuGet\\NuGet.Config",
 >>>>>>> parent of 8ffa367... Merge branch 'master' of https://github.com/EmilJPedersen/Microservis

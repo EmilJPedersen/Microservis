@@ -1,9 +1,12 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 import { Component, OnInit } from '@angular/core';
 import { NgForm } from '@angular/forms';
 import { BooksLibService } from './books-lib.service';
 =======
+=======
+>>>>>>> parent of 8ffa367... Merge branch 'master' of https://github.com/EmilJPedersen/Microservis
 =======
 >>>>>>> parent of 8ffa367... Merge branch 'master' of https://github.com/EmilJPedersen/Microservis
 import { Component, OnInit,NgModule } from '@angular/core';
@@ -11,10 +14,13 @@ import { DataService } from  '../../../../src/app/data.service';
 import { HttpClientModule } from '@angular/common/http';
 import { BrowserModule } from '@angular/platform-browser';
 <<<<<<< HEAD
+<<<<<<< HEAD
 import { NgForm } from '@angular/forms';
 import { BooksLibService } from "./books-lib.service";
 >>>>>>> parent of 2adea0d... Revert "Merge branch 'master' of https://github.com/EmilJPedersen/Microservis"
 
+=======
+>>>>>>> parent of 8ffa367... Merge branch 'master' of https://github.com/EmilJPedersen/Microservis
 =======
 >>>>>>> parent of 8ffa367... Merge branch 'master' of https://github.com/EmilJPedersen/Microservis
 @Component({
@@ -25,6 +31,7 @@ import { BooksLibService } from "./books-lib.service";
 export class BooksLibComponent implements OnInit {
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   constructor(public service: BooksLibService) { }
 =======
   constructor(private service : BooksLibService) { }
@@ -33,10 +40,15 @@ export class BooksLibComponent implements OnInit {
 books:object; 
   constructor(private data: DataService) { }
 >>>>>>> parent of 8ffa367... Merge branch 'master' of https://github.com/EmilJPedersen/Microservis
+=======
+books:object; 
+  constructor(private data: DataService) { }
+>>>>>>> parent of 8ffa367... Merge branch 'master' of https://github.com/EmilJPedersen/Microservis
 
   ngOnInit() {
     this.resetForm();
   }
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
   resetForm(form?: NgForm) {
@@ -56,11 +68,14 @@ books:object;
       
 >>>>>>> parent of 2adea0d... Revert "Merge branch 'master' of https://github.com/EmilJPedersen/Microservis"
 =======
+=======
+>>>>>>> parent of 8ffa367... Merge branch 'master' of https://github.com/EmilJPedersen/Microservis
   getBook(id):void{
     this.data.getSpecificBook(id).subscribe(data=>{
       this.books=data;
       console.log(this.books);
       })
+<<<<<<< HEAD
 >>>>>>> parent of 8ffa367... Merge branch 'master' of https://github.com/EmilJPedersen/Microservis
     }
 
@@ -74,5 +89,8 @@ books:object;
        this.resetForm(form);
      })
   }
+=======
+    }
+>>>>>>> parent of 8ffa367... Merge branch 'master' of https://github.com/EmilJPedersen/Microservis
 
 }
