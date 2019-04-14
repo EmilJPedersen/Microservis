@@ -16,7 +16,7 @@ export class BooksLibService {
   constructor(private http: HttpClient) { }
 
   postBook(formData: book) {
-    return this.http.post(this.rootURL + '/Books', formData, httpOptions);
+    return this.http.post(this.rootURL + '/Books', formData);
   }
 
 }

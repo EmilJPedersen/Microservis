@@ -4,6 +4,8 @@ import { HttpClientModule } from '@angular/common/http';
 import { FormsModule } from '@angular/forms';
 import { BooksLibComponent } from './books-lib.component';
 import { browser } from 'protractor';
+import { BooksLibService } from './books-lib.service';
+
 @NgModule({
   declarations: [
     BooksLibComponent
@@ -15,6 +17,7 @@ import { browser } from 'protractor';
   ],
   exports: [
     BooksLibComponent
-  ]
+  ],
+  providers: [BooksLibService]
 })
 export class BooksLibModule { }
