@@ -1,0 +1,11 @@
+C:\Users\Edb\Send\bin\Debug\netcoreapp2.2\Send.deps.json
+C:\Users\Edb\Send\bin\Debug\netcoreapp2.2\Send.runtimeconfig.json
+C:\Users\Edb\Send\bin\Debug\netcoreapp2.2\Send.runtimeconfig.dev.json
+C:\Users\Edb\Send\bin\Debug\netcoreapp2.2\Send.dll
+C:\Users\Edb\Send\bin\Debug\netcoreapp2.2\Send.pdb
+C:\Users\Edb\Send\obj\Debug\netcoreapp2.2\Send.csprojAssemblyReference.cache
+C:\Users\Edb\Send\obj\Debug\netcoreapp2.2\Send.csproj.CoreCompileInputs.cache
+C:\Users\Edb\Send\obj\Debug\netcoreapp2.2\Send.AssemblyInfoInputs.cache
+C:\Users\Edb\Send\obj\Debug\netcoreapp2.2\Send.AssemblyInfo.cs
+C:\Users\Edb\Send\obj\Debug\netcoreapp2.2\Send.dll
+C:\Users\Edb\Send\obj\Debug\netcoreapp2.2\Send.pdb
