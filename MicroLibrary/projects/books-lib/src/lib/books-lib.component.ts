@@ -1,6 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { NgForm } from '@angular/forms';
 import { BooksLibService } from './books-lib.service';
+import { book } from 'projects/Shared/book';
 
 @Component({
   selector: 'lib-books-lib',
@@ -10,9 +11,18 @@ import { BooksLibService } from './books-lib.service';
 export class BooksLibComponent implements OnInit {
   constructor(public service: BooksLibService) { }
 
+  books: book[];
+
   ngOnInit() {
     this.resetForm();
+    this.getBooks();
   }
+
+  getBooks(): void {
+    this.service.getAll()
+    .subscribe(books => this.books = books);
+  }
+
   resetForm(form?: NgForm) {
     if (form != null) {
       form.resetForm();

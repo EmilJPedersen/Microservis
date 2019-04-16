@@ -29,9 +29,9 @@
 </form>
 
 <h3>book list</h3>
-<ul *ngIf ="books">
-  <li *ngFor = "let books of books.data">
-    <img [src]="books.ImagePath">
-    <p>{{ books.id }} {{ books.Titel }} {{ books.pages }} {{ books.desc }}</p>
+<ul>
+  <li *ngFor = "let book of books">
+    <img [src]="book.ImagePath">
+    <p>{{ book.id }} {{ book.Titel }} {{ book.pages }} {{ book.desc }}</p>
   </li>
 </ul>

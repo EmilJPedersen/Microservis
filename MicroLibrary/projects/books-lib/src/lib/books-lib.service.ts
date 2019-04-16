@@ -1,6 +1,7 @@
 import { Injectable } from '@angular/core';
 import {HttpClient, HttpHeaders} from '@angular/common/http';
 import { book } from '../../../Shared/book';
+import { Observable } from 'rxjs';
 
 const httpOptions = {
   headers: new HttpHeaders({ 'Content-Type': 'application/json' })
@@ -17,6 +18,9 @@ export class BooksLibService {
 
   postBook(formData: book) {
     return this.http.post(this.rootURL + '/Books', formData);
+  }
+  getAll(): Observable<book[]> {
+    return this.http.get<book[]>(this.rootURL + '/Books');
   }
 
 }
