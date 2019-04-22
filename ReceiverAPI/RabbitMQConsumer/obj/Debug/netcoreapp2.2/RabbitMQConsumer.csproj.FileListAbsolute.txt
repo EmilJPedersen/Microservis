@@ -1,0 +1,8 @@
+C:\Users\Mads\Documents\GitHub\Microservis\ReceiverAPI\RabbitMQConsumer\bin\Debug\netcoreapp2.2\RabbitMQConsumer.deps.json
+C:\Users\Mads\Documents\GitHub\Microservis\ReceiverAPI\RabbitMQConsumer\bin\Debug\netcoreapp2.2\RabbitMQConsumer.runtimeconfig.json
+C:\Users\Mads\Documents\GitHub\Microservis\ReceiverAPI\RabbitMQConsumer\bin\Debug\netcoreapp2.2\RabbitMQConsumer.runtimeconfig.dev.json
+C:\Users\Mads\Documents\GitHub\Microservis\ReceiverAPI\RabbitMQConsumer\bin\Debug\netcoreapp2.2\RabbitMQConsumer.dll
+C:\Users\Mads\Documents\GitHub\Microservis\ReceiverAPI\RabbitMQConsumer\obj\Debug\netcoreapp2.2\RabbitMQConsumer.csproj.CoreCompileInputs.cache
+C:\Users\Mads\Documents\GitHub\Microservis\ReceiverAPI\RabbitMQConsumer\obj\Debug\netcoreapp2.2\RabbitMQConsumer.AssemblyInfoInputs.cache
+C:\Users\Mads\Documents\GitHub\Microservis\ReceiverAPI\RabbitMQConsumer\obj\Debug\netcoreapp2.2\RabbitMQConsumer.AssemblyInfo.cs
+C:\Users\Mads\Documents\GitHub\Microservis\ReceiverAPI\RabbitMQConsumer\obj\Debug\netcoreapp2.2\RabbitMQConsumer.csprojAssemblyReference.cache

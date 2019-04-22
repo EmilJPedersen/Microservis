@@ -6,6 +6,8 @@ using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using BookApi.Models;
+using RabbitMQ.Client;
+using System.Text;
 
 namespace BookApi.Controllers
 {
@@ -78,7 +80,34 @@ namespace BookApi.Controllers
             _context.Book.Add(book);
             await _context.SaveChangesAsync();
 
+
+            var factory = new ConnectionFactory() { HostName = "localhost" };
+            using (var connection = factory.CreateConnection())
+            {
+                using (var channel = connection.CreateModel())
+                {
+                    channel.QueueDeclare(queue: "hello",
+                                 durable: false,
+                                 exclusive: false,
+                                 autoDelete: false,
+                                 arguments: null);
+
+                    string message = book.titel;
+                    var body = Encoding.UTF8.GetBytes(message);
+
+                    channel.BasicPublish(exchange: "",
+                                         routingKey: "hello",
+                                         basicProperties: null,
+                                         body: body);
+                    Console.WriteLine(" [x] Sent {0}", message);
+                }
+            }
+
+
             return CreatedAtAction("GetBook", new { id = book.Id }, book);
+
+
+
         }
 
         // DELETE: api/Books/5
