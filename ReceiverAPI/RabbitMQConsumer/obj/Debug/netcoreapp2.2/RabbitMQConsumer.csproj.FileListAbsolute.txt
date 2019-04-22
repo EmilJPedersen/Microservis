@@ -6,3 +6,6 @@ C:\Users\Mads\Documents\GitHub\Microservis\ReceiverAPI\RabbitMQConsumer\obj\Debu
 C:\Users\Mads\Documents\GitHub\Microservis\ReceiverAPI\RabbitMQConsumer\obj\Debug\netcoreapp2.2\RabbitMQConsumer.AssemblyInfoInputs.cache
 C:\Users\Mads\Documents\GitHub\Microservis\ReceiverAPI\RabbitMQConsumer\obj\Debug\netcoreapp2.2\RabbitMQConsumer.AssemblyInfo.cs
 C:\Users\Mads\Documents\GitHub\Microservis\ReceiverAPI\RabbitMQConsumer\obj\Debug\netcoreapp2.2\RabbitMQConsumer.csprojAssemblyReference.cache
+C:\Users\Mads\Documents\GitHub\Microservis\ReceiverAPI\RabbitMQConsumer\bin\Debug\netcoreapp2.2\RabbitMQConsumer.pdb
+C:\Users\Mads\Documents\GitHub\Microservis\ReceiverAPI\RabbitMQConsumer\obj\Debug\netcoreapp2.2\RabbitMQConsumer.dll
+C:\Users\Mads\Documents\GitHub\Microservis\ReceiverAPI\RabbitMQConsumer\obj\Debug\netcoreapp2.2\RabbitMQConsumer.pdb

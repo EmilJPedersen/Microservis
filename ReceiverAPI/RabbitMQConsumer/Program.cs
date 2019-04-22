@@ -15,25 +15,29 @@ namespace RabbitMQConsumer
             {
                 using (var channel = connection.CreateModel())
                 {
-                    channel.QueueDeclare(queue: "hello",
+                    while(true)
+                    {
+                        channel.QueueDeclare(queue: "hello",
                                          durable: false,
                                          exclusive: false,
                                          autoDelete: false,
                                          arguments: null);
 
-                    var consumer = new EventingBasicConsumer(channel);
-                    consumer.Received += (model, ea) =>
-                    {
-                        var body = ea.Body;
-                        var message = Encoding.UTF8.GetString(body);
-                        Console.WriteLine(" [x] Received {0}", message);
-                        SendPost(message);
+                        var consumer = new EventingBasicConsumer(channel);
+                        consumer.Received += (model, ea) =>
+                        {
+                            var body = ea.Body;
+                            var message = Encoding.UTF8.GetString(body);
+                            Console.WriteLine(" [x] Received {0}", message);
+                            SendPost(message);
 
-                    };
-                    channel.BasicConsume(queue: "hello",
-                                         autoAck: true,
-                                         consumer: consumer);
-                    
+                        };
+                        channel.BasicConsume(queue: "hello",
+                                             autoAck: true,
+                                             consumer: consumer);
+                    }
+                   
+
                 }
             }
         }
@@ -41,7 +45,7 @@ namespace RabbitMQConsumer
         public static void SendPost(string titel)
         {
             StringContent content = new StringContent(titel);
-            Client.PostAsync("https://localhost:44319/",content);
+            Client.PostAsync("https://localhost:44319/", content);
         }
     }
 }
