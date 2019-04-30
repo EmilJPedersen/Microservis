@@ -38,6 +38,7 @@ namespace ReceiverAPI
                 });
             });
 
+            services.AddHostedService<PushBackgroundtask>();
             services.AddDbContext<ReceiverAPIContext>(options =>
                     options.UseSqlServer(Configuration.GetConnectionString("ReceiverAPIContext")));
 

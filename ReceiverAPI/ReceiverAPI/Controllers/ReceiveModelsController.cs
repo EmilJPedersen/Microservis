@@ -72,7 +72,7 @@ namespace ReceiverAPI.Controllers
         }
 
         // POST: api/ReceiveModels
-        [HttpPost]
+        [HttpPost("{titel}")]
         public async Task<ActionResult<ReceiveModel>> PostReceiveModel(string titel)
         {
             ReceiveModel receiveModel = new ReceiveModel();

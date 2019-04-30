@@ -1,4 +1,6 @@
 ﻿using Microsoft.Extensions.Hosting;
+using Microsoft.Extensions.Logging;
+using Microsoft.Extensions.Options;
 using RabbitMQ.Client;
 using RabbitMQ.Client.Events;
 using System;
@@ -13,9 +15,19 @@ namespace ReceiverAPI
 {
     public class PushBackgroundtask : BackgroundService
     {
+
+        private readonly ILogger<PushBackgroundtask> _logger;
+        
+
+        public PushBackgroundtask(ILogger<PushBackgroundtask> logger)
+        {
+            //Constructor’s parameters validations...
+        }
+
         protected override Task ExecuteAsync(CancellationToken stoppingToken)
         {
             var factory = new ConnectionFactory() { HostName = "localhost" };
+            
             using (var connection = factory.CreateConnection())
             {
                 using (var channel = connection.CreateModel())
@@ -47,10 +59,13 @@ namespace ReceiverAPI
             }
         }
         private static HttpClient Client = new HttpClient();
+
+        
+
         public static void SendPost(string titel)
         {
-            StringContent content = new StringContent(titel);
-            Client.PostAsync("https://localhost:44319/", content);
+            StringContent content = new StringContent("titel: " + titel);
+            Client.PostAsync("https://localhost:44319/api/ReceiveModels/" + titel, content);
         }
     }
 }
