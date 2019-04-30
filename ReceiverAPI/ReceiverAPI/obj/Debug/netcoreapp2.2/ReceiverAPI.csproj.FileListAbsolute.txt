@@ -12,3 +12,17 @@ C:\Users\Mads\Documents\GitHub\Microservis\ReceiverAPI\ReceiverAPI\obj\Debug\net
 C:\Users\Mads\Documents\GitHub\Microservis\ReceiverAPI\ReceiverAPI\bin\Debug\netcoreapp2.2\ReceiverAPI.pdb
 C:\Users\Mads\Documents\GitHub\Microservis\ReceiverAPI\ReceiverAPI\obj\Debug\netcoreapp2.2\ReceiverAPI.dll
 C:\Users\Mads\Documents\GitHub\Microservis\ReceiverAPI\ReceiverAPI\obj\Debug\netcoreapp2.2\ReceiverAPI.pdb
+C:\xampp\apps\Microservis\ReceiverAPI\ReceiverAPI\bin\Debug\netcoreapp2.2\ReceiverAPI.deps.json
+C:\xampp\apps\Microservis\ReceiverAPI\ReceiverAPI\bin\Debug\netcoreapp2.2\ReceiverAPI.runtimeconfig.json
+C:\xampp\apps\Microservis\ReceiverAPI\ReceiverAPI\bin\Debug\netcoreapp2.2\ReceiverAPI.runtimeconfig.dev.json
+C:\xampp\apps\Microservis\ReceiverAPI\ReceiverAPI\bin\Debug\netcoreapp2.2\ReceiverAPI.dll
+C:\xampp\apps\Microservis\ReceiverAPI\ReceiverAPI\bin\Debug\netcoreapp2.2\ReceiverAPI.pdb
+C:\xampp\apps\Microservis\ReceiverAPI\ReceiverAPI\obj\Debug\netcoreapp2.2\ReceiverAPI.csprojAssemblyReference.cache
+C:\xampp\apps\Microservis\ReceiverAPI\ReceiverAPI\obj\Debug\netcoreapp2.2\ReceiverAPI.csproj.CoreCompileInputs.cache
+C:\xampp\apps\Microservis\ReceiverAPI\ReceiverAPI\obj\Debug\netcoreapp2.2\ReceiverAPI.RazorAssemblyInfo.cache
+C:\xampp\apps\Microservis\ReceiverAPI\ReceiverAPI\obj\Debug\netcoreapp2.2\ReceiverAPI.RazorAssemblyInfo.cs
+C:\xampp\apps\Microservis\ReceiverAPI\ReceiverAPI\obj\Debug\netcoreapp2.2\ReceiverAPI.AssemblyInfoInputs.cache
+C:\xampp\apps\Microservis\ReceiverAPI\ReceiverAPI\obj\Debug\netcoreapp2.2\ReceiverAPI.AssemblyInfo.cs
+C:\xampp\apps\Microservis\ReceiverAPI\ReceiverAPI\obj\Debug\netcoreapp2.2\ReceiverAPI.RazorTargetAssemblyInfo.cache
+C:\xampp\apps\Microservis\ReceiverAPI\ReceiverAPI\obj\Debug\netcoreapp2.2\ReceiverAPI.dll
+C:\xampp\apps\Microservis\ReceiverAPI\ReceiverAPI\obj\Debug\netcoreapp2.2\ReceiverAPI.pdb
